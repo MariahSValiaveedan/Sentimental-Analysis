@@ -2,7 +2,6 @@ import pickle
 import streamlit as st
 import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
-import textblob
 from textblob import TextBlob
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import emoji
